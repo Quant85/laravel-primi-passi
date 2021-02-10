@@ -1,30 +1,13 @@
-<!doctype html>
-<html>
-<head>
-    @include('partial.head')
-</head>
-<body>
-<div class="container">
+@extends('layout.template')
 
-    <header class="row">
-        @include('partial.header')
-    </header>
+@section('header')
+    @include('partial.navbar')
+@endsection
 
-    <nav>
-      @include('partial.navbar')
-    </nav>
+@section('main')
+    <h1>Questa è About</h1>
+@endsection
 
-    <div id="main" class="row">
-
-            <h1>Questa è About</h1>
-            @yield('content')
-
-    </div>
-
-    <footer class="row">
-        @include('partial.footer')
-    </footer>
-
-</div>
-</body>
-</html>
+@section('footer')
+    @include('partial.footer')
+@endsection

@@ -1,6 +1,6 @@
-
+<nav>
 <h2>Navbar block</h2>
-  <div class="navbar">
+<div class="navbar">
     <div class="navbar-inner">
         <a id="logo" href="/">Logo Collegato alla Home</a>
         <ul class="nav">
@@ -12,3 +12,4 @@
         </ul>
     </div>
 </div>
+</nav>
