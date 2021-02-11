@@ -1,0 +1,14 @@
+.header{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  border-bottom: 2px solid grey;
+  h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+}

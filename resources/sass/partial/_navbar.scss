@@ -1,0 +1,27 @@
+nav {
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+  width: 100%;
+  .navbar-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a#logo img{
+      padding: 1rem 2rem;
+      vertical-align: middle;
+    }
+  }
+  li{
+    list-style-type: none;
+    display: inline;
+    padding: 1rem 2rem;
+    a{
+      color: #515151;
+      text-decoration: none;
+      &:hover{
+        color: red;
+      }
+    }
+  }
+}

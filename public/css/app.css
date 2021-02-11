@@ -1,0 +1,64 @@
+nav {
+  background-color: #f1f1f1;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+nav .navbar-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .navbar-inner a#logo img {
+  padding: 1rem 2rem;
+  vertical-align: middle;
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 1rem 2rem;
+}
+nav li a {
+  color: #515151;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: red;
+}
+
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  border-bottom: 2px solid grey;
+}
+.header h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+main {
+  width: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: auto;
+}
+main .art {
+  display: flex;
+}
+main .art .art-left, main .art .art-right {
+  width: 50%;
+  padding: 0 1.2rem;
+  text-align: justify;
+}
+main .art .art-left h3, main .art .art-right h3 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+

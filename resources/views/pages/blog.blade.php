@@ -1,7 +1,10 @@
 @extends('layout.template')
 
-@section('header')
+@section('navbar')
   @include('partial.navbar')
+@endsection
+
+@section('header')
   @include ('partial.header')
 @endsection
 
